@@ -1,0 +1,18 @@
+{
+    "root": {
+
+    },
+    "alert": {
+        "noMobile": "Please enter phone number",
+        "noParams": "params error",
+        "noAreacode": "Please select areacode",
+        "undefined": "undefined error",
+        "uploadError": "upload error",
+        "apiError": "network error",
+        "system_502": "network error 502",
+        "system_503": "network error 503",
+        "net": "network error",
+        "netPost": "network error",
+        "mobileFormat": "Phone number is  uncorrect"
+    }
+}

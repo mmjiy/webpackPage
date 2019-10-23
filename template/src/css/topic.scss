@@ -1,0 +1,54 @@
+/*
+  颜色模块
+ */
+$color_warn:#ff976a ;//提示色
+$color_error:#C30D23 ;//警告色
+$color_error_active:#F93E5E ;//警告色
+$color_correct:#07c160 ;//正确色
+$color_topic_main:#4C1D85 ;//主题色
+$color_topic_secondary:#0EC5D8;
+$color_topic_gradient:linear-gradient(90deg,#6a008e,#320083) ;
+$color_bg_default:#f7f7f7 ;
+$color_border_default:#DCDDDD;
+$color_border_split:#DCDDDD;
+
+/**
+  字体
+ */
+$font_size:12px ;
+$font_size_t1:19px ;
+$font_size_t2:17px ;
+$font_size_t3:15px ;
+$font_size_t4:14px ;
+$font_size_t5:$font_size ;
+$font_size_t6:10px ;
+$font_size_t7:9px ;
+$font_color_title:#3E3A39 ;
+$font_color_contentMain:#727171 ;
+$font_color_contentSecondeary:#C9CACA ;
+$font_color_disable:#DCDDDD ;
+$font_lineHeight:1.5 ;
+
+/*
+  表单模块
+ */
+$form_border:.5px solid $color_border_default;
+$form_border_disable:.5px solid $font_color_disable;
+
+$form_input_bg:rgba(77,29,133,0.2);
+
+
+
+$pageEmpty_padding_horizontal:34px;
+$page_padding_horizontal:13px;
+
+$border_radius:5px;
+
+
+@mixin plainButton(){
+    height: 44px;
+    line-height: 44px;
+    color:$color_topic_main;
+    font-size: $font_size_t3;
+    text-align: center;
+}

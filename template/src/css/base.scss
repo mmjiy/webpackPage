@@ -1,0 +1,18 @@
+@import "~@/css/topic.scss";
+
+$design:  750px;
+$swfTime:.5s;
+
+@function count($px) {
+  @return ($px * (750px / $design))/2;
+}
+
+@font-face {
+  font-family: 'yesaway_ui';  /* project id 1093463 */
+  src: url('//at.alicdn.com/t/font_1093463_q2hhmklmybj.eot');
+  src: url('//at.alicdn.com/t/font_1093463_q2hhmklmybj.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1093463_q2hhmklmybj.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1093463_q2hhmklmybj.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1093463_q2hhmklmybj.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1093463_q2hhmklmybj.svg#yesaway_ui') format('svg');
+}

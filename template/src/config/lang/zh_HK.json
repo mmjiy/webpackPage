@@ -1,0 +1,18 @@
+{
+    "root": {
+
+    },
+    "alert": {
+        "noMobile": "请输入手机号码",
+        "noParams": "程序出错",
+        "noAreacode": "请选择区号",
+        "undefined": "添加失败",
+        "uploadError": "上传失败",
+        "apiError": "请求出错，请稍后再试",
+        "system_502": "程序出错",
+        "system_503": "程序出错",
+        "net": "网络错误，请稍后再试",
+        "netPost": "网络错误",
+        "mobileFormat": "手机格式不对"
+    }
+}
